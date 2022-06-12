@@ -5,8 +5,7 @@
 [![Test Coverage](https://api.codeclimate.com/v1/badges/b5247ebfb415a87a5a89/test_coverage)](https://codeclimate.com/github/mvaload/python-project-lvl2/test_coverage)
 
 
-# Brain games
-Simple math console games.
+# Difference Calculator
 
 ### Setup
 ```make install```
