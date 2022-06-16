@@ -35,3 +35,17 @@ def test_diff_plain_yaml():
     diff = generate_diff(file_path1, file_path2, 'plain')
     result = open(result_format).read()
     assert diff == result
+
+
+def test_diff_json():
+    file_path1, file_path2, result_format = get_path('json', 'json')
+    diff = generate_diff(file_path1, file_path2, 'json')
+    result = open(result_format).read()
+    assert diff == result
+
+
+def test_diff_json_yaml():
+    file_path1, file_path2, result_format = get_path('json', 'yaml')
+    diff = generate_diff(file_path1, file_path2, 'json')
+    result = open(result_format).read()
+    assert diff == result
