@@ -12,4 +12,3 @@ def select_render_format(tree, format):
         return json.render(tree)
     else:
         raise Exception(f'Unknown format: {format}')
-

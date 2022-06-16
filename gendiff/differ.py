@@ -12,4 +12,3 @@ def generate_diff(file_path1, file_path2, format_name):
 
 def get_data_file(file_path):
     return parser.parse(open(file_path), file_path.split('.')[-1])
-

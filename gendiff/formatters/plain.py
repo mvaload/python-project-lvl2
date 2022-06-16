@@ -17,7 +17,8 @@ def prepare_format(node, ancestry=''):
         )
         return sum(parts, [])
     elif node['type'] == 'added':
-        return [f"Property '{property_name}' was added with value: {stringify(node['value'])}"]
+        return [f"Property '{property_name}' was added with value:"
+                f" {stringify(node['value'])}"]
     elif node['type'] == 'deleted':
         return [f"Property '{property_name}' was removed"]
     elif node['type'] == 'changed':
