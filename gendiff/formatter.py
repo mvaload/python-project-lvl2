@@ -1,6 +1,6 @@
-from difference_calculator.formatters import stylish
-from difference_calculator.formatters import plain
-from difference_calculator.formatters import json
+from gendiff.formatters import stylish
+from gendiff.formatters import plain
+from gendiff.formatters import json
 
 
 def select_render_format(tree, format):

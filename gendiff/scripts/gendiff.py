@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 import argparse
-from difference_calculator import differ
+from gendiff import differ
 
 
 def main():

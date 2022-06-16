@@ -1,6 +1,6 @@
-from difference_calculator import parser
-from difference_calculator import tree
-from difference_calculator import formatter
+from gendiff import parser
+from gendiff import tree
+from gendiff import formatter
 
 
 def generate_diff(file_path1, file_path2, format_name):

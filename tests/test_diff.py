@@ -1,4 +1,4 @@
-from difference_calculator.differ import generate_diff
+from gendiff.differ import generate_diff
 import os
 
 
