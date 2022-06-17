@@ -1,4 +1,4 @@
-from gendiff.differ import generate_diff
+from gendiff import generate_diff
 import os
 
 
