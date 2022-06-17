@@ -3,7 +3,7 @@ from gendiff import tree
 from gendiff import formatter
 
 
-def generate_diff(file_path1, file_path2, format_name):
+def generate_diff(file_path1, file_path2, format_name='stylish'):
     data1 = get_data_file(file_path1)
     data2 = get_data_file(file_path2)
     diff = tree.make_tree(data1, data2)
