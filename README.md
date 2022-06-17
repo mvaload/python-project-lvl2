@@ -7,8 +7,27 @@
 
 # Difference Calculator
 
+### Requirements
+
+* python >= 3.8
+* poetry >= 1.1.4
+* make >= 4
+
 ### Setup
 ```make install```
 
 ### Check lint
 ```make lint```
+
+### Run test
+```make test```
+
+### Demo
+**run --help:**
+[![asciicast](https://asciinema.org/a/GGHZoInOJyfnj6UGZFOgFOD0L.svg)](https://asciinema.org/a/GGHZoInOJyfnj6UGZFOgFOD0L)
+**run default**
+[![asciicast](https://asciinema.org/a/Un2saEN62VxQGXUdsZGhb9sFC.svg)](https://asciinema.org/a/Un2saEN62VxQGXUdsZGhb9sFC)
+**run -f plain**
+[![asciicast](https://asciinema.org/a/uc9uKav6ZLQP9APo5FooBTPAp.svg)](https://asciinema.org/a/uc9uKav6ZLQP9APo5FooBTPAp)
+**run -f json**
+[![asciicast](https://asciinema.org/a/X6jJhV7R9ruk3UaHkUrjKvwQK.svg)](https://asciinema.org/a/X6jJhV7R9ruk3UaHkUrjKvwQK)
